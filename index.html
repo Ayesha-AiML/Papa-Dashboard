@@ -1,18 +1,162 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Papa Dashboard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Papa Service Dashboard</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#eef2f7;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.card{
+    background:white;
+    width:30%;
+    min-width:250px;
+    margin:10px;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+.card h2{
+    color:#0d6efd;
+}
+
+.timeline{
+    margin-top:40px;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+.timeline h2{
+    text-align:center;
+    color:#0d6efd;
+}
+
+.step{
+    border-left:4px solid #0d6efd;
+    margin-left:20px;
+    padding-left:20px;
+    margin-bottom:25px;
+}
+
+.step h3{
+    margin:0;
+    color:#0d6efd;
+}
+
+footer{
+    text-align:center;
+    background:#0d6efd;
+    color:white;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+
 </head>
+
 <body>
 
-<h1>Papa Service Dashboard</h1>
+<header>
+<h1>Government Employee Service Dashboard</h1>
+<h3>Abdul Shakoor</h3>
+</header>
 
-<p><b>Name:</b> Abdul-Shakoor</p>
-<p><b>Designation:</b> Government Clerk</p>
-<p><b>First Posting:</b> Arifwala</p>
-<p><b>Transfer:</b> Pakpattan</p>
-<p><b>Status:</b> Retired</p>
+<div class="container">
+
+<div class="cards">
+
+<div class="card">
+<h2>👤 Name</h2>
+<p><b>Abdul Shakoor</b></p>
+</div>
+
+<div class="card">
+<h2>💼 Job Title</h2>
+<p><b>Government Clerk</b></p>
+</div>
+
+<div class="card">
+<h2>📍 First Posting</h2>
+<p><b>Arifwala</b></p>
+</div>
+
+<div class="card">
+<h2>🔄 Transfer</h2>
+<p><b>Pakpattan</b></p>
+</div>
+
+<div class="card">
+<h2>⏳ Total Service</h2>
+<p><b>20 Years</b></p>
+</div>
+
+<div class="card">
+<h2>🏁 Status</h2>
+<p><b>Retired</b></p>
+</div>
+
+</div>
+
+<div class="timeline">
+
+<h2>📅 Service Timeline</h2>
+
+<div class="step">
+<h3>🟢 Joining</h3>
+<p>Joined Government Service as Government Clerk.</p>
+</div>
+
+<div class="step">
+<h3>🏢 First Posting</h3>
+<p>Started duty at <b>Arifwala</b>.</p>
+</div>
+
+<div class="step">
+<h3>🔄 Transfer</h3>
+<p>Transferred from Arifwala to <b>Pakpattan</b>.</p>
+</div>
+
+<div class="step">
+<h3>🏁 Retirement</h3>
+<p>Successfully completed <b>20 Years</b> of Government Service and retired.</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+Designed using HTML & CSS | GitHub Dashboard
+</footer>
 
 </body>
 </html>
